@@ -1,0 +1,445 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2012-07-03
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/* For		  : MColle
+/**************************************************/
+
+/*==Top page==*/
+#mapContainer {
+	width: 860px;
+	margin: 10px auto; //
+	border: 2px #F00 solid;
+}
+#mapTop {
+	height: 4px;
+	background-image: url(../images/bg_map_top.png);
+}
+#mapBox {
+	background-image: url(../images/bg_map_middle.png);
+	height: 510px;
+	padding: 3px 6px 3px 6px;
+	border: 0px #F00 solid;
+}
+#mapCanvasTopPage {
+	height: 508px;
+	border: 1px #CCC solid;
+}
+#mapCanvasMypage {
+	height: 508px;
+	border: 1px #CCC solid;
+}
+#mapCanvasDetail {
+	width:622px;
+	height: 160px;
+	margin-left: 118px;
+	border: 2px #CCC solid;
+}
+#mapBottom {
+	background-image: url(../images/bg_map_buttom.png);
+	height: 5px;
+}
+
+/*InfoWindow*/
+#infoWindow {
+	/*width: 300px;*/
+	font-family: Tahoma, Geneva, sans-serif;
+	background: #FFF;
+	/*padding: 7px 7px 7px 7px;*/
+	color: #F00;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px #FFF solid;/*#2A5CC3*/
+}
+
+#infoWindow a {
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#infoWindow a:hover {
+	color: #357EC7;
+}
+
+#infoWindow table {
+	/*width: 300px;*/
+	padding: 0px;
+	text-align: left;
+	border: 1px #FFF solid;
+}
+
+#infoWindow td {
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	border: 0px #F00 solid;
+}
+
+#infoWindow .tdImg {
+	width: 50px;
+	border: 0px #F00 solid;
+}
+
+#infoWindow .cardImg {
+	margin: 0px 5px 0px 0px;
+	width: 50px;
+	height: 50px;
+	border: 1px #FFF solid;
+}
+
+#infoWindow .cardImg:hover {
+	cursor: pointer;
+	border: 1px #CCC solid;
+}
+
+#infoWindow .subject {
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+#infoWindow .title {
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+#infoWindow .title:hover {
+	cursor: pointer;
+	color: #357EC7;
+	font-size: 12px;
+	font-weight: bold;
+}
+#infoWindow .userName{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	float: right;
+	color: #999;
+	border: 0px #F00 solid;
+	margin: 0px 2px 0px 3px;
+}
+#infoWindow .location {
+	color: #666;
+	font-size: 11px;
+	padding: 5px 2px 2px 2px;
+	vertical-align: top;
+}
+
+#infoWindow .category {
+	margin: 5px 0px 0px 0px;
+	vertical-align: top;
+	border: 0px #00F solid;
+}
+
+#infoWindow .category .categoryColor{
+	margin-right: 2px;
+	width: 12px;
+	height: 12px;
+	float: left;
+}
+#infoWindow .category .colorAll{
+	background-color: #ff0000;
+}
+#infoWindow .category .colorEat{
+	background-color: #ff6600;
+}
+#infoWindow .category .colorEvent{
+	background-color: #ffcc00;
+}
+#infoWindow .category .colorTravel{
+	background-color: #19c37d;
+}
+#infoWindow .category .colorStay{
+	background-color: #5378ee;
+}
+#infoWindow .category .colorPurchase{
+	background-color: #9f57ff;
+}
+#infoWindow .category .colorBeauty{
+	background-color: #ff99ff;
+}
+#infoWindow .category .colorEtc{
+	background-color: #765347;
+}
+
+#infoWindow .category .categoryName{
+	font-weight: bold;
+	font-size: 12px;
+}
+#infoWindow .category .nameAll{
+	color: #ff0000;
+}
+#infoWindow .category .nameEat{
+	color: #ff6600;
+}
+#infoWindow .category .nameEvent{
+	color: #ffcc00;
+}
+#infoWindow .category .nameTravel{
+	color: #19c37d;
+}
+#infoWindow .category .nameStay{
+	color: #5378ee;
+}
+#infoWindow .category .namePurchase{
+	color: #9f57ff;
+}
+#infoWindow .category .nameBeauty{
+	color: #ff99ff;
+}
+#infoWindow .category .nameEtc{
+	color: #765347;
+}
+/*end InfoWindow*/
+
+/*InfoBox*/
+#infoBox {
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 8px;
+	background: #FFF;
+	padding: 7px 7px 7px 7px;
+	color: #F00;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 2px #2A5CC3 solid;
+}
+
+#infoBox a {
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#infoBox a:hover {
+	color: #357EC7;
+}
+
+#infoBox table {
+	padding: 0px;
+	text-align: left;
+	width: 253px;
+	border: 0px #000 solid;
+}
+
+#infoBox td {
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	border: 0px #F00 solid;
+}
+
+#infoBox .tdImg {
+	width: 50px;
+	border: 0px #F00 solid;
+}
+
+#infoBox .cardImg {
+	margin: 0px 5px 0px 0px;
+	width: 50px;
+	height: 50px;
+	border: 1px #FFF solid;
+}
+
+#infoBox .cardImg:hover {
+	border: 1px #CCC solid;
+}
+
+#infoBox .subject {
+	color: #034C95;
+	font-size: 12px;
+	font-weight: bold;
+}
+#infoBox .userName{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	float: right;
+	color: #999;
+	border: 0px #F00 solid;
+	margin: 0px 2px 0px 3px;
+}
+
+#infoBox .location {
+	color: #666;
+	font-size: 11px;
+	padding: 2px 2px 2px 2px;
+	vertical-align: top;
+}
+
+#infoBox .category {
+	display: inline;
+	vertical-align: top;
+	color: #7D4600;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#infoBox .category .category_icon {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+/*end InfoBox*/
+/*Map CardDetail*/
+#mapBarBottomBox{
+	position: relative;
+	width:626px;
+	height: 20px; 
+    margin-left: 118px;
+	border-bottom: 2px #CCC solid;
+}
+#ibtnMapExpand{
+	position: absolute;
+    width: 100%;
+	height: 20px;
+	background-color: #D0D0D0;	
+	text-align: center;
+	/*padding: 3px 0px 3px 0px;*/
+}
+#ibtnMapExpand:hover{
+	cursor: pointer;
+	background-color: #BCBCBC; 
+}
+#ibtnMapExpand:active{
+	background-color: #A8A8A8; 
+}
+#ibtnMapExpand div#iexpandCollapseIcon{
+	margin: 0 auto;
+	background-image: url(../images/btn_map_collapse.png);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	width: 17px;
+	height: 20px;
+	
+	border: 0px #00F solid;
+}
+#btnDirection{
+	position: relative;
+	z-index:2;
+	float: right;
+	width: 40px;
+	height: 20px;
+	background-color: #D0D0D0;
+	background-image: url(../images/btn_map_direction.png);
+	background-repeat: no-repeat;
+	background-position: 12px 2px;
+	
+	border-left: 1px #C6C6C6 solid;
+}
+#btnDirection:hover{
+	cursor: pointer;
+	background-color: #BCBCBC;
+}
+#btnDirection:active{
+	background-color: #A8A8A8;
+}
+
+#btnMyLocation{
+	position: relative;
+	z-index:2;
+	float: right;
+	width: 40px;
+	height: 20px;
+	background-color: #D0D0D0;
+	background-image: url(../images/btn_map_mylocation.png);
+	background-repeat: no-repeat;
+	background-position: 12px 2px;
+	border-left: 1px #C6C6C6 solid;
+}
+#btnMyLocation:hover{
+	cursor: pointer;
+	background-color: #BCBCBC;
+}
+#btnMyLocation:active{
+	background-color: #A8A8A8;
+}
+
+#mapDetailDataBox{
+	display: none;
+	border: 1px #F00 solid;
+}
+
+/*endMap CardDetail*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TEMP*/
+#hBox {
+	width: 860px;
+	height: 100px;
+	border: 1px #CCC solid;
+}
+
+#hBox .btnBack {
+	float: left;
+	width: 49px;
+	height: 51px;
+	margin: 15px 0px 0px -20px;
+	background-image: url("../MCOLLE/common/btn_left.png");
+	border: 0px #000 solid;
+}
+
+#hBox .btnBack:hover {
+	background-image: url("../MCOLLE/common/btn_left_over.png");
+}
+
+#hBox .btnBack:active {
+	background-image: url("../MCOLLE/common/btn_left_down.png");
+}
+
+#hBox .btnNext {
+	float: right;
+	width: 49px;
+	height: 51px;
+	margin: 15px -20px 0px 0px;
+	background-image: url("../MCOLLE/common/btn_right.png");
+	border: 0px #000 solid;
+}
+
+#hBox .btnNext:hover {
+	background-image: url("../MCOLLE/common/btn_right_over.png");
+}
+
+#hBox .btnNext:active {
+	background-image: url("../MCOLLE/common/btn_right_down.png");
+}
+
+#hBox ul {
+	display: inline-block;
+	width: 770px;
+	height: 96px;
+	border: 2px #F00 solid;
+}
+
+#hBox ul li {
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin: 2px 15px 2px 20px;
+	background-image: url("../MCOLLE/parts/card_parts/card_base.png");
+	border: 1px #00F solid;
+}
+
+#hBox ul li .card {
+	width: 75px;
+	height: 75px;
+	background-image: url("../MCOLLE/parts/card_parts/card_base.png");
+}
+/*==/Top page==*/

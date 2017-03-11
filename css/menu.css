@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+#bgmenu {
+	width: 100%;
+	height: 40px;
+	background-image: url(../images/bgmenu.png);
+}
+
+#bgmenu #menu {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#bgmenu #menu:after {
+	conent: ".";
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.item a {
+	height: 35px;
+	display: inline-block;
+	margin: 0px 1px 0px 1px;
+}
+
+a.all {
+	background-image: url(../images/btn_all_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.all:hover {
+	background-image: url(../images/btn_all_ON.png);
+	height: 35px;
+}
+
+a.event {
+	background-image: url(../images/btn_event_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.event:hover {
+	background-image: url(../images/btn_event_ON.png);
+	height: 35px;
+}
+
+a.purchase {
+	background-image: url(../images/btn_purchase_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.purchase:hover {
+	background-image: url(../images/btn_purchase_ON.png);
+	height: 35px;
+}
+
+a.travel {
+	background-image: url(../images/btn_travel_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.travel:hover {
+	background-image: url(../images/btn_travel_ON.png);
+	height: 35px;
+}
+
+a.beauty {
+	background-image: url(../images/btn_beauty_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.beauty:hover {
+	background-image: url(../images/btn_beauty_ON.png);
+	height: 35px;
+}
+
+a.etc {
+	background-image: url(../images/btn_etc_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.etc:hover {
+	background-image: url(../images/btn_etc_ON.png);
+	height: 35px;
+}
+
+a.stay {
+	background-image: url(../images/btn_stay_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.stay:hover {
+	background-image: url(../images/btn_stay_ON.png);
+	height: 35px;
+}
+
+a.eat {
+	background-image: url(../images/btn_eat_OFF.png);
+	height: 35px;
+	width: 90px;
+}
+
+a.eat:hover {
+	background-image: url(../images/btn_eat_ON.png);
+	height: 35px;
+}
+
+a.thum {
+	background-image: url(../images/btn_card_OFF.png);
+	height: 33px;
+	width: 33px;
+}
+
+a.thum:hover {
+	background-image: url(../images/btn_card_ON.png);
+	height: 33px;
+}
+
+a.map {
+	background-image: url(../images/btn_map_OFF.png);
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 33px;
+}
+
+a.map:hover {
+	background-image: url(../images/btn_map_ON.png);
+	height: 33px;
+}
+
+a.mapseleted {
+	background-image: url(../images/btn_map_ON.png);
+}
+
+a.thumseleted {
+	background-image: url(../images/btn_card_ON.png);
+}

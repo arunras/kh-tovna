@@ -1,0 +1,203 @@
+@CHARSET "UTF-8";
+
+#setting {
+	width: 850px;
+	margin: 0px auto 30px;
+}
+
+#setting .navigate {
+	width: 200px;
+	float: left;
+	display: block;
+	font-size: 18px;
+}
+
+.navigate a {
+	padding: 10px;
+	display: block;
+}
+
+.navigate a:hover {
+	background-color: #CCC;
+}
+
+.navigate a.selected {
+	background-color: #CCC;
+	color: white;
+}
+
+#setting .content {
+	border-left: 2px dotted #999999;
+	padding-left: 40px;
+	width: 600px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#setting:after {
+	content: ".";
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+input[name="first-name"],input[name="last-name"],input[name="email"],input[name="old-password"],input[name="new-password"],input[name="confirm-password"]
+	{
+	margin-top: 10px;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+}
+
+input[name="first-name"],input[name="last-name"],input[name="email"],input[name="old-password"],input[name="new-password"],input[name="confirm-password"]
+	{
+	-webkit-border-radius: 1px;
+	border: none;
+	-moz-border-radius: 1px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, .1), inset 0 0 10px
+		hsla(0, 0%, 0%, .5), 0 0 0 1px hsla(0, 0%, 0%, .1), 0 -1px 2px 1px
+		hsla(0, 0%, 0%, .25), 0 2px 2px 1px hsla(0, 0%, 100%, .75), 0 -2px
+		10px 2px hsla(0, 0%, 100%, .75), 0 2px 10px 2px hsla(0, 0%, 0%, .25);
+	-moz-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, .1), inset 0 0 10px
+		hsla(0, 0%, 0%, .5), 0 0 0 1px hsla(0, 0%, 0%, .1), 0 -1px 2px 1px
+		hsla(0, 0%, 0%, .25), 0 2px 2px 1px hsla(0, 0%, 100%, .75), 0 -2px
+		10px 2px hsla(0, 0%, 100%, .75), 0 2px 10px 2px hsla(0, 0%, 0%, .25);
+	box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, .1), inset 0 0 5px
+		hsla(0, 0%, 0%, .2), 0 0 0 1px hsla(0, 0%, 0%, .3), 0 0 1px 0
+		hsla(0, 0%, 0%, .25), 0 0 0 0 hsla(0, 0%, 100%, .75), 0 0 0 0
+		hsla(0, 0%, 100%, .75), 0 0 0 0 hsla(0, 0%, 0%, .25);
+}
+
+:-webkit-input-placeholder {
+	color: #CCC;
+}
+
+:-moz-placeholder {
+	color: #CCC;
+}
+
+:-ms-input-placeholder {
+	color: #CCC;
+}
+
+.val-error {
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.val-error p {
+	background-color: red;
+	min-width: 40px;
+	max-width: 300px; //
+	margin: 0 auto;
+	background: none repeat scroll 0 0 #EB5847;
+	border: 1px solid #9E281B;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 3px 2px #831E12;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 #9E281B;
+	padding: 3px 5px 5px 5px;
+	text-align: left;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+td label {
+	font-size: 18px;
+}
+
+#tblsetting td {
+	padding: 8px;
+}
+
+input#email-save {
+	width: 80px;
+	height: 44px;
+	font-size: 18px;
+	cursor: pointer;
+}
+/*
+input#profile-save {
+width: 80px;
+height: 44px;
+font-size: 18px;
+cursor: pointer;
+}
+*/
+td#email-wrap-button,#profile-wrap-button {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+td#email-wrap-button a {
+	background-image: url("../images/btn_save.png");
+	padding: 8px 0 16px 252px;
+}
+
+td#email-wrap-button a:hover {
+	background-image: url("../images/btn_save_over.png");
+}
+
+td#email-wrap-button a:active {
+	background-image: url("../images/btn_save_down.png");
+}
+
+td#email-wrap-button {
+	margin-top: 10px;
+	display: inline-block;
+}
+/*
+td#profile-wrap-button a{
+background-image: url("../images/btn_save.png");
+padding: 8px 0 16px 252px;
+}
+td#profile-wrap-button a:hover{
+background-image: url("../images/btn_save_over.png");
+}
+td#profile-wrap-button a:active{
+background-image: url("../images/btn_save_down.png");
+}
+*/
+#profile-button-save {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#email-button-save {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#profile-button-save,#email-button-save {
+	padding-top: 20px;
+}
+
+#profile-button-save input {
+	background-image: url("../images/btn_save.png");
+	padding: 10px 0 16px 252px;
+}
+
+#profile-button-save input:hover {
+	background-image: url("../images/btn_save_over.png");
+}
+
+#profile-button-save input:active {
+	background-image: url("../images/btn_save_down.png");
+}
+
+#email-button-save input {
+	background-image: url("../images/btn_save.png");
+	padding: 10px 0 16px 252px;
+}
+
+#email-button-save input:hover {
+	background-image: url("../images/btn_save_over.png");
+}
+
+#email-button-save input:active {
+	background-image: url("../images/btn_save_down.png");
+}

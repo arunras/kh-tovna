@@ -1,0 +1,399 @@
+.jcarousel-skin-ie7 .jcarousel-container {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: white;
+}
+
+.jcarousel-skin-ie7 .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-ie7 .jcarousel-container-horizontal {
+	width: 780px;
+	padding: 10px 40px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-container-vertical {
+	width: 75px;
+	height: 245px;
+	padding: 40px 20px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-clip {
+	overflow: hidden;
+}
+
+.jcarousel-skin-ie7 .jcarousel-clip-horizontal {
+	width: 780px;
+	height: 100px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-clip-vertical {
+	width: 77px;
+	height: 245px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item{
+width:90px;
+height:95px;
+/*background:url(../MCOLLE/card_parts/card_base.png) no-repeat 0 0;*/
+}
+/*RUN*/
+.cardBox{
+	border: 1px #FFF solid;
+	width: 90px;
+}
+.cardBox:hover{
+	cursor: pointer;
+	width: 90px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border: 1px #E49E1B solid;
+}
+/*endRUN*/
+
+.cover_bg{
+	border: 1px #F00 solid;
+	width: 90px;
+}
+.cover_bg:hover{
+	border: 1px #E49E1B solid;
+	width: 90px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.cover_link a:focus .cover_bg{
+	border:1px solid #E49E1B;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;	
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_img {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../MCOLLE/card_parts/card_eat.png) no-repeat 0 0;
+}
+
+div.bg_base_top {
+	height: 9px;
+	background: url(../images/bg_base_top.png) no-repeat;
+}
+
+div.bg_base_middle {
+	height: 73px;
+	background: url(../images/bg_base_middle.png) repeat-y;
+	position: relative;
+	width: 90px;
+}
+
+div.bg_base_bottom {
+	height: 8px;
+	background: url(../images/bg_base_bottom.png) no-repeat;
+}
+/*Background  bg_beauty*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_beauty_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_beauty_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_beauty_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_beauty_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_beauty_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_beauty_bottom.png);
+}
+/*close Background  bg_beauty*/
+/*Background  bg_eat*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_eat_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_eat_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_eat_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_eat_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_eat_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_eat_bottom.png);
+}
+/* close Background  bg_eat*/
+/*================Background  bg_event=======================*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_event_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_event_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_event_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_event_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_event_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_event_bottom.png);
+}
+/*=================== close Background  bg_event=================*/
+/*================Background  bg_travel=======================*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_travel_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_travel_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_travel_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_travel_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_travel_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_travel_bottom.png);
+}
+/*=================== close Background  bg_travel=================*/
+/*================Background  bg_stay=======================*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_stay_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_stay_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_stay_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_stay_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_stay_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_stay_bottom.png);
+}
+/*=================== close Background  bg_stay=================*/
+/*================Background  bg_purchase=======================*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_purchase_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_purchase_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_purchase_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_purchase_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_purchase_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_purchase_bottom.png);
+}
+/*=================== close Background  bg_purchase=================*/
+/*================Background  bg_etc=======================*/
+.jcarousel-skin-ie7 .jcarousel-item .bg_etc_top {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	background: url(../images/bg_etc_top.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_etc_middle {
+	width: 75px;
+	height: 63px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	background: url(../images/bg_etc_middle.png);
+}
+
+.jcarousel-skin-ie7 .jcarousel-item .bg_etc_bottom {
+	width: 75px;
+	height: 6px;
+	position: absolute;
+	left: 7px;
+	top: 68px;
+	background: url(../images/bg_etc_bottom.png);
+}
+/*=================== close Background  bg_etc=================*/
+.bg_base_middle img {
+	position: absolute;
+	top: 2px;
+	left: 5px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item:hover,.jcarousel-skin-ie7 .jcarousel-item:focus
+	{
+	border-color: #808080;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-direction-rtl .jcarousel-item-horizontal
+	{
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-vertical {
+	margin-bottom: 7px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-placeholder {
+	
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-ie7 .jcarousel-next-horizontal {
+	position: absolute;
+	top: 25px;
+	right: -25px;
+	width: 51px;
+	height: 49px;
+	cursor: pointer;
+	/* background: transparent url(next-horizontal.gif) no-repeat 0 0;*/
+	background: transparent url(../MCOLLE/common/btn_right.png) no-repeat 0
+		0;
+}
+
+/*.jcarousel-skin-ie7 .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.gif);
+}*/
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:hover,.jcarousel-skin-ie7 .jcarousel-next-horizontal:focus
+	{ /*background-position: -32px 0;*/
+	background: transparent url(../MCOLLE/common/btn_right_over.png)
+		no-repeat 0 0;
+}
+.jcarousel-skin-ie7 .jcarousel-next-horizontal:active
+	{ /*background-position: -32px 0;*/
+	background: transparent url(../MCOLLE/common/btn_right_down.png)
+		no-repeat 0 0;
+}
+
+/*.jcarousel-skin-ie7 .jcarousel-next-horizontal:active {
+    background:transparent url(../../examples/common/btn_right_over.png) no-repeat 0 0;
+}*/
+.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal,.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:hover,.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:focus,.jcarousel-skin-ie7 .jcarousel-next-disabled-horizontal:active
+	{
+	cursor: default;
+	/* background-position: -96px 0;*/
+	background: transparent url(../MCOLLE/common/btn_right_over.png)
+		no-repeat;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 25px;
+	left: -25px;
+	width: 51px;
+	height: 49px;
+	cursor: pointer;
+	/*background: transparent url(prev-horizontal.gif) no-repeat 0 0;*/
+	background: transparent url(../MCOLLE/common/btn_left.png) no-repeat 0 0;
+}
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:hover ,.jcarousel-skin-ie7 .jcarousel-prev-horizontal:focus
+{ /*background-position: -32px 0;*/
+	background: transparent url(../MCOLLE/common/btn_left_over.png)
+	no-repeat 0 0;
+}
+.jcarousel-skin-ie7 .jcarousel-prev-horizontal:active
+{ /*background-position: -32px 0;*/
+	background: transparent url(../MCOLLE/common/btn_left_down.png)
+	no-repeat 0 0;
+}
+
+/*.jcarousel-skin-ie7 .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}*/
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal,.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:focus,.jcarousel-skin-ie7 .jcarousel-prev-disabled-horizontal:active
+	{
+	cursor: default;
+	/* background-position: -96px 0;*/
+	background: transparent url(../MCOLLE/common/btn_left_over.png)
+		no-repeat 0 0;
+}
+/*-=========================================================================*/

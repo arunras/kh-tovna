@@ -1,0 +1,263 @@
+/* 
+    Document   : browse
+    Created on : Jul 4, 2012, 8:19:28 AM
+    Author     : JC SECURITIES Co.Ltd
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root {
+	display: block;
+}
+
+div.div_wrap {
+	width: 790px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* block_thumbnail*/
+div.card {
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+
+div.bg_base_top {
+	height: 9px;
+	background-image: url(../images/bg_base_top.png);
+}
+
+div.bg_base_middle {
+	height: 73px;
+	background-image: url(../images/bg_base_middle.png);
+}
+
+div.bg_base_bottom {
+	height: 8px;
+	background-image: url(../images/bg_base_bottom.png);
+}
+
+div.block_pop {
+	height: 73px;
+	width: 75px;
+	margin-top: -82px;
+	margin-left: 8px;
+	display: block;
+	background-color: transparent;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+div.block_pop:hover {
+	z-index: 5;
+	-webkit-transform: scale(2) translateY(0);
+	-moz-transform: scale(2) translateY(0);
+	-ms-transform: scale(2) translateY(0);
+	transform: scale(2) translateY(0);
+	-webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+div.block_pop:hover .short_text {
+	font-size: 12px;
+	display: block;
+}
+
+div.bg_top {
+	width: 75px;
+	height: 6px;
+}
+
+div.bg_middle {
+	width: 75px;
+	height: 64px;
+	margin-top: -1px;
+}
+
+div.bg_bottom {
+	width: 75px;
+	height: 6px;
+	margin-top: -1px;
+}
+
+div.beauty div.bg_top {
+	background: url(../images/bg_beauty_top.png) no-repeat;
+}
+
+div.beauty div.bg_middle {
+	background: url(../images/bg_beauty_middle.png) repeat;
+}
+
+div.beauty div.bg_bottom {
+	background: url(../images/bg_beauty_bottom.png) no-repeat;
+}
+
+div.eat div.bg_top {
+	background: url(../images/bg_eat_top.png) no-repeat;
+}
+
+div.eat div.bg_middle {
+	background: url(../images/bg_eat_middle.png) repeat;
+}
+
+div.eat div.bg_bottom {
+	background: url(../images/bg_eat_bottom.png) no-repeat;
+}
+
+div.etc div.bg_top {
+	background: url(../images/bg_etc_top.png) no-repeat;
+}
+
+div.etc div.bg_middle {
+	background: url(../images/bg_etc_middle.png) repeat;
+}
+
+div.etc div.bg_bottom {
+	background: url(../images/bg_etc_bottom.png) no-repeat;
+}
+
+div.event div.bg_top {
+	background: url(../images/bg_event_top.png) no-repeat;
+}
+
+div.event div.bg_middle {
+	background: url(../images/bg_event_middle.png) repeat;
+}
+
+div.event div.bg_bottom {
+	background: url(../images/bg_event_bottom.png) no-repeat;
+}
+
+div.purchase div.bg_top {
+	background: url(../images/bg_purchase_top.png) no-repeat;
+}
+
+div.purchase div.bg_middle {
+	background: url(../images/bg_purchase_middle.png) repeat;
+}
+
+div.purchase div.bg_bottom {
+	background: url(../images/bg_purchase_bottom.png) no-repeat;
+}
+
+div.stay div.bg_top {
+	background: url(../images/bg_stay_top.png) no-repeat;
+}
+
+div.stay div.bg_middle {
+	background: url(../images/bg_stay_middle.png) repeat;
+}
+
+div.stay div.bg_bottom {
+	background: url(../images/bg_stay_bottom.png) no-repeat;
+}
+
+div.travel div.bg_top {
+	background: url(../images/bg_travel_top.png) no-repeat;
+}
+
+div.travel div.bg_middle {
+	background: url(../images/bg_travel_middle.png) repeat;
+}
+
+div.travel div.bg_bottom {
+	background: url(../images/bg_travel_bottom.png) no-repeat;
+}
+
+img.img_card {
+	width: 65px;
+	height: 64px;
+	position: absolute;
+	margin-top: -69px;
+	margin-left: 5px;
+}
+
+/*for chrooe & ie*/
+.webkit img.img_card,.ie img.img_card {
+	position: absolute;
+	z-index: 3;
+	width: 65px;
+	height: 63px;
+	margin-left: 5px;
+	margin-top: -69px;
+}
+/* end block_thumbnail*/
+.short_text {
+	position: absolute;
+	text-align: center;
+	z-index: 6;
+	height: 25px;
+	width: 66px;
+	vertical-align: top;
+	margin-top: -30px;
+	margin-left: 4px;
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+	background-color: white;
+	display: none;
+}
+
+.desc_text {
+	height: 22px;
+	display: block;
+	z-index: 10;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 65px;
+	font-family: Calibri;
+	color: #333333;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.load_more {
+	-moz-box-shadow: inset 0px 1px 0px 0px #eb2a71;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #eb2a71;
+	box-shadow: inset 0px 1px 0px 0px #eb2a71;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #963f43
+		), color-stop(1, #db5ca4) );
+	background: -moz-linear-gradient(center top, #963f43 5%, #db5ca4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#963f43',
+		endColorstr='#db5ca4' );
+	background-color: #963f43;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #754f75;
+	display: inline-block;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #731d73;
+}
+
+.load_more:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #db5ca4
+		), color-stop(1, #963f43) );
+	background: -moz-linear-gradient(center top, #db5ca4 5%, #963f43 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db5ca4',
+		endColorstr='#963f43' );
+	background-color: #db5ca4;
+	cursor: pointer;
+}
+/*pop up*/
+#mask_detail {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+
+#pop_card_detail {
+	position: absolute;
+	z-index: 9001;
+}

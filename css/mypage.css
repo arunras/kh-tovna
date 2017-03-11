@@ -1,0 +1,320 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : Menglim
+/* Date       : 2012-07-04
+/* EMail      : menglim@camitss.com
+/* Company    : http://camitss.com
+/* For		  : MColle
+/**************************************************/
+#profile-wraper {
+	width: 100%;
+	border: 0px solid #444;
+	height: 118px;
+	margin: 0px auto;
+	background-image: url(../images/bg_myprofile.png);
+}
+
+#bgmypage {
+	width: 850px;
+	margin: 0px auto;
+}
+
+div#col-profile {
+	width: 390px;
+	float: left;
+}
+
+div#col-profile .profile-image {
+	background-image: url(../images/base_photo.png);
+	width: 90px;
+	height: 90px;
+	padding: 5.5px;
+	margin-top: 7px;
+	float: left;
+}
+
+div#col-profile .profile-info {
+	float: left;
+	margin-left: 14px;
+	margin-top: 7px;
+}
+
+div#col-profile .profile-info h2 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #528cc5;
+	font-family: Calibri;
+	height: 30px;
+}
+
+div#col-profile .profile-info .email {
+	height: 25px;
+}
+
+div#col-profile .profile-info .email a {
+	color: #666666 !important;
+	text-decoration: none !important;
+	font-family: Calibri !important;
+	font-weight: bold !important;
+	font-size: 17px !important;
+}
+
+div#col-profile .profile-info .num-card {
+	color: #666666;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 17px;
+	height: 25px;
+}
+
+div#col-profile .profile-info .num-friend {
+	color: #666666;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 17px
+}
+
+div#col-review {
+	width: 310px;
+	float: left;
+	height: 81px;
+	margin-top: 25px;
+}
+
+div#col-review #part-left {
+	float: left;
+}
+
+div#col-review #part-right {
+	float: right;
+}
+
+div#part-left .bookmark {
+	background-image: url("../images/btn_bookmark_OFF.png");
+	width: 150.4px;
+	height: 35px;
+}
+
+div#part-left .bookmark:hover {
+	background-image: url("../images/btn_bookmark_ON.png");
+	cursor: pointer;
+}
+
+div#part-left .bookmarkselected {
+	background-image: url("../images/btn_bookmark_ON.png");
+}
+
+div#part-left .want-visit {
+	background-image: url("../images/btn_WantVist_OFF.png");
+	width: 150.4px;
+	height: 35px;
+	margin-top: 10px;
+}
+
+div#part-left .want-visit:hover {
+	background-image: url("../images/btn_WantVist_ON.png");
+	cursor: pointer;
+}
+
+div#part-left .my-want-visitselected {
+	background-image: url("../images/btn_MyFriends_ON.png");
+}
+
+div#part-right .my-friend {
+	background-image: url("../images/btn_MyFriends_OFF.png");
+	width: 150.4px;
+	height: 35px;
+}
+
+div#part-right .my-friend:hover {
+	background-image: url("../images/btn_MyFriends_ON.png");
+	cursor: pointer;
+}
+
+div#part-right .my-friendselected {
+	background-image: url("../images/btn_MyFriends_ON.png");
+}
+
+div#part-right .been-here {
+	background-image: url("../images/btn_IVbeen_OFF.png");
+	width: 150.4px;
+	height: 35px;
+	margin-top: 10px;
+}
+
+div#part-right .been-here:hover {
+	background-image: url("../images/btn_IVbeen_ON.png");
+	cursor: pointer;
+}
+
+div#part-right .been-hereselected {
+	background-image: url("../images/btn_IVbeen_ON.png");
+}
+
+div#col-last {
+	width: 150px;
+	float: right;
+}
+
+div#col-last #thum-map {
+	float: right;
+}
+
+div#col-last #thum-map .thum {
+	float: left;
+	margin: 8px 6px 0;
+	background-image: url("../images/btn_card_OFF.png");
+	width: 33px;
+	height: 33px;
+}
+
+div#col-last #thum-map .thum:hover {
+	float: left;
+	cursor: pointer;
+	background-image: url("../images/btn_card_ON.png");
+}
+
+div#col-last #thum-map .map {
+	float: right;
+	margin: 8px 0 0;
+	background-image: url("../images/btn_map_OFF.png");
+	width: 33px;
+	height: 33px;
+}
+
+div#col-last #thum-map .map:hover {
+	float: right;
+	cursor: pointer;
+	background-image: url("../images/btn_map_ON.png");
+}
+
+div#col-last .invite-friend {
+	background-image: url("../images/btn_invite.png");
+	width: 142px;
+	height: 26px;
+	margin-top: 48px;
+	margin-left: 10px;
+}
+
+div#col-last .invite-friend:hover {
+	background-image: url("../images/btn_invite_over.png");
+	cursor: pointer;
+}
+
+div#col-last .invite-friend:active {
+	background-image: url("../images/btn_invite_down.png");
+}
+
+div#col-last .search-cancel {
+	background-image: url("../images/fillbox_cancel.png");
+	width: 142px;
+	height: 26px;
+	margin-top: 4px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+div#col-last .search-cancel input {
+	width: 81px;
+	margin: 3px 0 0 3px;
+	height: 18px;
+	border-radius: 2px;
+	border: none;
+}
+
+#pop-profilechanger {
+	border: 0px solid;
+	width: 88px;
+	height: 20px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#pop-profilechanger a {
+	background-image: url(../images/bg_changer.png);
+	font-size: 11px;
+	margin: auto;
+	padding: 3px 25px 3px 25px;
+	border: 0px solid red;
+	color: white;
+}
+
+#pop-profilechanger a:hover {
+	color: #999;
+}
+
+#pop-profileuploader {
+	border: 0px solid;
+	position: absolute;
+	width: 860px;
+	margin: 0 auto;
+	z-index: 9001;
+}
+
+#pop-profileuploader .uploader-top {
+	background-image: url(../images/bar_upload_image.png);
+	height: 40px;
+	color: white;
+	cursor: move;
+}
+
+#pop-profileuploader .uploader-top a {
+	background: url(../images/btn_close.png) 0 0 no-repeat;
+	border: 0px solid;
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+	padding: 0px 0px 10px 7px;
+	position: relative;
+	float: right;
+}
+
+#pop-profileuploader .uploader-middle {
+	background-image: url(../images/window_middle.png);
+	border: 0px solid;
+	height: 500px;
+}
+
+#pop-profileuploader .uploader-bottom {
+	background-image: url(../images/window_bottom.png);
+	border: 0px solid;
+	height: 22px;
+}
+
+#pop-profileuploader .uploader-content {
+	border: 0px solid;
+	heigth: 100%;
+	padding: 10px;
+}
+
+#mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+
+.jcrop-big-image {
+	border: 1px solid #999999;
+	float: left;
+	margin-right: 10px;
+	width: 700px;
+	height: 450px;
+	overflow: hidden;
+}
+
+.show {
+	display: block;
+	visibility: visible;
+	width: auto;
+	height: auto;
+}
+
+.jcrop-div-preview {
+	border: 1px solid #999999;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}

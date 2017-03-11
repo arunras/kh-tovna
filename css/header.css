@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+#searchwrapper {
+	width: 200px; /*follow your image's size*/
+	height: 40px; /*follow your image's size*/
+	background-image: url(../images/img_search.png);
+	background-repeat: no-repeat; /*important*/
+	padding: 0px;
+	margin: 0px;
+	position: relative; /*important*/
+}
+
+#searchwrapper form {
+	display: inline;
+}
+
+.searchbox {
+	border: 0px; /*important*/
+	background-color: transparent; /*important*/
+	position: absolute; /*important*/
+	top: -2px;
+	left: 3px;
+	width: 170px;
+	height: 28px;
+}
+
+.searchbox_submit {
+	border: 0px; /*important*/
+	background-color: transparent; /*important*/
+	position: absolute; /*important*/
+	top: 0px;
+	left: 170px;
+	width: 32px;
+	height: 26px;
+}
+
+div#nav-pro {
+	border: 0px solid black;
+	width: 100%;
+	height: 30px;
+}
+
+#nav-pro a.btn_create {
+	border: 0px solid black;
+	width: 100px;
+	padding: 0px 110px 7px 0px;
+	height: 50px;
+	background-image: url(../images/btn_create.png);
+}
+
+#nav-pro a.btn_create:hover {
+	background-image: url(../images/btn_create_over.png);
+}
+
+#nav-pro a.btn_create:active {
+	background-image: url(../images/btn_create_down.png);
+}
+
+#nav-pro a.btn_login {
+	border: 0px solid black;
+	width: 100px;
+	padding: 0px 110px 7px 0px;
+	height: 50px;
+	background-image: url(../images/btn_login.png);
+	margin-left: 5px;
+}
+
+#nav-pro a.btn_login:hover {
+	background-image: url(../images/btn_login_over.png);
+}
+
+#nav-pro a.btn_login:active {
+	background-image: url(../images/btn_login_down.png);
+}
+
+div#nav-pro-logged {
+	border: 0px solid black;
+	width: 100%;
+	height: 30px;
+}
+
+#nav-pro-logged a.btn_create {
+	border: 0px solid black;
+	width: 100px;
+	padding: 10px 115px 7px 0px;
+	height: 50px;
+	background-image: url(../images/btn_create.png);
+	background-repeat: no-repeat;
+}
+
+#nav-pro-logged a.btn_create:hover {
+	background-image: url(../images/btn_create_over.png);
+}
+
+#nav-pro-logged a.btn_create:active {
+	background-image: url(../images/btn_create_down.png);
+}
+
+#nav-pro-logged a.friend {
+	border: 0px solid black;
+	width: 100px;
+	padding: 10px 40px 7px 0px;
+	height: 32px;
+	background-image: url(../images/btn_friend.png);
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#nav-pro-logged a.friend:hover {
+	background-image: url(../images/btn_friend_over.png);
+}
+
+#nav-pro-logged a.notification {
+	border: 0px solid black;
+	width: 100px;
+	padding: 10px 24px 7px 0px;
+	height: 32px;
+	background-image: url(../images/btn_notification.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#nav-pro-logged a.notification:hover {
+	background-image: url(../images/btn_notification_over.png);
+}
+
+#nav-pro-logged a.profile-name {
+	vertical-align: top;
+}
+
+#pop_notification {
+	width: 400px;
+	position: absolute;
+	border: 0px solid black;
+	visibility: hidden;
+	z-index: 300;
+}
+#pop_notification .pop_top {
+	background-image: url(../images/arrow.png);
+	width: 10px;
+	height: 8px;
+	margin: 0px 100px 0px 100px;
+}
+#pop_profilemenu {
+	width: 100px;
+	position: absolute;
+	border: 0px solid black;
+	visibility: hidden;
+	z-index: 300;
+}
+.pop_top {
+	background-image: url(../images/arrow.png);
+	width: 10px;
+	height: 8px;
+	margin: 0 auto;
+}
+
+.pop_bottom {
+	background-color: white;
+	min-width: 40px;
+	max-width: 300px;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 3px 2px #831E12;
+
+}
+
+#pop_profilemenu .pop_bottom a {
+	font-size: 12px;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 5px 5px;
+	border-bottom: 1px dashed #999999;
+}
+
+#pop_profilemenu .pop_bottom a:before {
+	content: "►";
+	padding: px 0px 0px 0px;
+	margin-right: 4px;
+}
+
+#pop_profilemenu .pop_bottom a:hover {
+	background-color: #f9f8f8;
+	font-weight: bold;
+}
+
+#pop_notification div.notification{
+font-size:11px;
+padding:10px;
+}
+#pop_notification div.notification:after{
+content:".";
+visibilities: hidden;
+display: block;
+clear: both;
+height: 0;
+font-size: 0;
+}
+#pop_notification div.notification:hover{
+	background-color: #f9f8f8;
+}
+#pop_notification div.notification .text{
+	float:left;
+}
+
+#pop_notification div.notification .link{
+	float:right;
+}
+
+#pop_notification div.notification .link a{
+	padding:5px 10px 5px 10px;
+	background-color:#0066cc;
+	color:white;
+	text-shadow:1px 1px 1px black;
+}
+#pop_notification div.notification .link a:hover{
+	background-color:#0066ff;
+	color:white;
+}
+#pop_notification div.pop_bottom a{
+	font-size:10px;
+padding:11px;
+}
+#pop_notification div.pop_bottom a:hover{
+	text-decoration:underline;
+}
+
+#pop_notification div.notification a{
+padding:0px;
+font-size:11px;
+}

@@ -1,0 +1,58 @@
+#profilepage-wraper {
+	background-image: url("../images/bg_profile.png");
+	border: 0 solid #444444;
+	height: 220px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#wrap-profile {
+	height: 110px;
+}
+
+#bgmypage #col-btn {
+	float: right;
+	margin: 67px 30px;
+}
+
+#col-btn .btn-add {
+	background-image: url("../images/btn_add.png");
+	width: 252px;
+	height: 42px;
+}
+#col-btn .btn-remove {
+    background-image: url("../images/btn_remove_friend.png");
+    height: 42px;
+    width: 252px;
+}
+#col-btn .btn-cancel {
+    background-image: url("../images/btn_cancel_friend.png");
+    height: 42px;
+    width: 252px;
+}
+#col-btn .btn-confirm {
+    background-image: url("../images/btn_confirm_friend.png");
+    height: 42px;
+    width: 252px;
+}
+
+.friends {
+	margin-top: 19px;
+	position: absolute;
+}
+
+.friends h2 {
+	font-weight: bold;
+	color: #528cc5;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.friends a {
+	margin-right: 4px;
+}
+
+#more {
+	color: #528cc5;
+	font-weight: bold;
+}

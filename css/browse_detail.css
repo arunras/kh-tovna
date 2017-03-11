@@ -1,0 +1,273 @@
+/* 
+    Document   : browse_detail
+    Created on : Jul 19, 2012, 3:19:37 PM
+    Author     : JC SECURITIES Co.Ltd
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+/* ================== pop ================== */
+div.popup {
+    width:860px;
+    margin: 0 auto;
+}
+div#popup_detail {
+    width: 100%; 
+    border-radius: 20px;
+    display: inline-block;
+}
+div.wrap_content {
+    display: inline-block;
+    width: 860px;
+    height: auto;
+    margin: 0 auto;
+    background: url('../images/window_middle.png') repeat;
+}
+div.wrap_bottom {
+    display: inline-block;
+    width: 860px;
+    height: 40px;
+    margin: 0 auto;
+    background: url('../images/window_bottom.png') repeat;
+}
+
+    div.bar_beauty,div.bar_eat,div.bar_etc,div.bar_event,div.bar_purchase,div.bar_stay,div.bar_travel {
+        width: 860px; 
+        height: 40px;
+    }
+    div.bar_beauty {
+        background: url('../images/bar_beauty.png')no-repeat;
+    }
+    div.bar_eat {
+        background: url('../images/bar_eat.png')no-repeat;
+    }
+    div.bar_etc {
+        background: url('../images/bar_etc.png')no-repeat;
+    }
+    div.bar_event {
+        background: url('../images/bar_event.png')no-repeat;
+    }
+    div.bar_purchase {
+        background: url('../images/bar_purchase.png')no-repeat;
+    }
+    div.bar_stay {
+        background: url('../images/bar_stay.png')no-repeat;
+    }
+    div.bar_travel {
+        background: url('../images/bar_travel.png')no-repeat;
+    }
+    div.btn_close {
+        background: url('../images/btn_close.png') no-repeat;
+        float: right;
+        width: 30px; 
+        height: 30px; 
+        position: relative; 
+        margin-top:-35px; 
+        margin-right:5px;
+    }
+    div.btn_close:hover {
+        cursor: pointer;
+    }
+div.block_1 {
+    width:100%;
+}
+    div.left_side {
+        font-family: Arial; 
+        display: inline-block; 
+        float: left; 
+        text-align: left; 
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+        div.div_pro_pic {
+            display: inline-block; 
+            vertical-align: top !important; 
+            margin-top: 4px;
+        }
+            img.img_pro {
+                width: 60px;
+                height: 60px;
+            }
+        div.c_info {
+            display: inline-block; 
+            width: 300px; 
+            margin-left: 8px;
+            
+        }
+            div.c_info div.edit_card {
+                display: none;
+                width: 100%;
+                height: 60px;
+            }
+                div.edit_card input {
+                    margin-top: 7px;
+                }
+                label.red_star1,label.red_star2 {
+                    color: white;
+                    width: 5px;
+                }
+            div.c_info div.title {
+
+                font-size: 26px;
+                color: #528CC5; 
+                font-weight: bold; 
+                vertical-align: top !important; 
+                line-height:30px; 
+            }
+            div.c_info div.location {
+
+                color: #666666; 
+                font-weight: bold;
+                font-size: 14px;
+            }
+            div.c_info div.c_date {
+
+                font-size: 14px;
+                color:#868686;
+                padding-top: 6px !important;
+            }
+    div.right_side {
+        display: inline-block;
+        float: right; 
+        margin-right: 120px;
+        text-align:right;
+        margin-top: 10px;
+    }
+    div.right_side div.div_edit {
+        display: inline-block; 
+        margin-right: 5px;
+    }
+        span.edit {
+            color: #689ACC;
+        }
+        span.edit:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        div.fb_share, div.g_share, div.fb_like, div.twitter_like, div.g_like{
+            display: inline-block;
+        }
+        div.fb_like {
+            width: 45px;
+        }
+div.block_2 {
+    width:100%; 
+    margin-top: 10px !important; 
+    display: inline-block;
+    height: 402px;
+}
+    div.big_pic {
+        margin-left: 72px; 
+        width: 622px; 
+        display: inline-block;
+    }
+    img.img_big {
+        width: 573px;
+        height: 400px;
+        margin-left:48px; 
+    }
+    div.block_2 div.block_thumb {
+        width: 50px; 
+        height: 400px;
+        display: inline-block; 
+    }
+    div.wrap_thumb {
+        width:50px; 
+        height: 362px;
+    }
+    
+    img.thumb {
+        width: 39px;
+        height: 39px;
+        margin-bottom: 3px;
+    }
+    img.thumb {
+        cursor: pointer;
+    }
+    .jTscroller a span.delete_img {
+        margin-left: -11px;
+        margin-top: 1px;
+        width:10px; 
+        height:10px; 
+        background: url(../images/delete.png) no-repeat; 
+        position:absolute; 
+        z-index:100;
+        display: none;
+        background-color: white;
+    }
+    .jTscroller a:hover span.delete_img {
+        display: inline-block;
+    }
+    .jTscroller a span.delete_img:hover {
+        cursor: pointer;
+    }
+    div#upload_photo {
+        width: 40px;
+        height: 40px;
+    }
+    img.img_add:hover {
+        cursor: pointer;
+    }
+div.block_3 {
+    width:100%; 
+    margin-top: 10px; 
+    display: inline-block;
+}
+div.block_3 div.interest {
+    float:left; 
+    margin-left: 118px;
+}
+
+    .webkit span.num_want, .ie span.num_want {
+        margin-top:-33px; 
+        margin-left: 197px;
+        position: absolute;
+    }
+    .webkit span.num_havebeen, .ie span.num_havebeen {
+        margin-top:-33px; 
+        margin-left: 197px;
+        position: absolute;
+    }
+    span.num_want, span.num_havebeen {
+        width: 37px; 
+        text-align: center; 
+        font-size:22px; 
+        font-family: Arial; 
+        font-weight: bold; 
+        margin-left: -44px; 
+        margin-top:9px; 
+        position: absolute;
+    }
+    
+    img.wanttovisit_on:hover {
+        cursor: pointer;
+    }
+    img.wanttovisit:hover {
+        cursor: pointer;
+    }
+    
+    img.Ivbeenhere_on:hover{
+        cursor: pointer;
+    }
+    img.Ivbeenhere:hover{
+        cursor: pointer;
+    }
+    
+div.block_4 {
+    width:100%;
+    margin-top: 9px;
+    display: inline-block;
+}
+    div.block_4 div.block_map {
+        width:622px; 
+        margin-left: 118px;
+    }
+div.block_5 {
+    width:100%; 
+    margin-top: 9px;
+    display: inline-block;
+}

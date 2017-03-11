@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+#pop-profilechanger {
+	border: 0px solid;
+	width: 88px;
+	height: 20px;
+	position: absolute;
+	visibility: hidden;
+}
+
+#pop-profilechanger a {
+	background-image: url(../images/bg_changer.png);
+	font-size: 11px;
+	margin: auto;
+	padding: 3px 25px 3px 25px;
+	border: 0px solid red;
+	color: white;
+}
+
+#pop-profilechanger a:hover {
+	color: #999;
+}
+
+#pop-profileuploader {
+	border: 0px solid;
+	position: absolute;
+	width: 860px;
+	margin: 0 auto;
+	z-index: 9001;
+}
+
+#pop-profileuploader .invite-top {
+	background-image: url(../images/bar_invite.png);
+	height: 40px;
+	color: white;
+	cursor: move;
+}
+
+#pop-profileuploader .invite-top a {
+	background: url(../images/btn_close.png) 0 0 no-repeat;
+	border: 0px solid;
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+	padding: 0px 0px 10px 7px;
+	position: relative;
+	float: right;
+}
+
+#pop-profileuploader .invite-middle {
+	background-image: url(../images/window_middle.png);
+	border: 0px solid;
+	height: 500px;
+}
+
+#pop-profileuploader .invite-bottom {
+	background-image: url(../images/window_bottom.png);
+	border: 0px solid;
+	height: 22px;
+}
+
+#pop-profileuploader .invite-content {
+	
+height:500px;
+	padding: 10px 10px 10px 10px;
+	border:1px solid black;
+	overflow:scroll;
+  margin:0 auto;
+}
+.fb-wraper{
+border:1px solid #999999;
+  width:150px;
+  float:left;
+  margin:2.4px;
+  height:50px;
+}
+.fb-wraper .fb-picture{
+  float:left;
+  margin-right:5px;
+}
+.fb-wraper .fb-picture:after{
+	content: ".";
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.fb-wraper .fb-text{
+  
+  font-size:11px;
+  padding:5px 0px 0px 0px;
+}
+.fb-wraper .fb-text:after{
+	content: ".";
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}

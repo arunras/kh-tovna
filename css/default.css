@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background-image: url(../images/bg.png);
+	font-family: arial;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+	width: 100%;
+	margin: 0px auto;
+}
+
+#container #topbg {
+	background-image: url(../images/bglogo.png);
+	width: 100%;
+	height: 114px;
+}
+
+#topbg #top {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#topbg #top:after {
+	content: ".";
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#container #topleft {
+	width: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+#container #topright {
+	width: 500px;
+	margin-top: 10px;
+	float: right;
+	border: 0px solid black;
+}
+
+#topright table {
+	float: right;
+}
+
+#footer p {
+	color: #7aa7d2;
+}
+
+.clear {
+	visibilities: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.space {
+	border: none;
+	height: 1px;
+}
+
+#message {
+	margin: auto;
+	text-align: center;
+	background-color: red;
+	min-width: 20px;
+	max-width: 300px;
+	margin: 0 auto;
+	background: none repeat scroll 0 0 #EB5847;
+	border: 1px solid #9E281B;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 3px 2px #831E12;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 #9E281B;
+	padding: 3px 15px 5px 15px;
+	text-align: left;
+	font-size: 13px;
+	line-height: 20px;
+	position: absolute;
+	z-index: 2000;
+	visibility: hidden;
+}
+
+.normal {
+	color: gray;
+}
+
+#error {
+	color: red;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+#error:before {
+	content: """;
+}
+
+.line {
+	border: none;
+	border-bottom: 1px solid #999999;
+}
